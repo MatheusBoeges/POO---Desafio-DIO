@@ -8,6 +8,6 @@ public interface Internet {
 	
 	public void adicionarNovaAba();
 	
-	
+	public void  atualizarPagina();
 
 }
