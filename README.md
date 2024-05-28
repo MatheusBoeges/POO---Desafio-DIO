@@ -1,16 +1,36 @@
 # POO---Desafio-DIO
-Modelagem e diagramação da representação em UML e Código no que se refere ao componente iPhone.
 
-Com base no vídeo de lançamento do iPhone conforme link abaixo, elabore em uma ferramenta de UML de sua preferência a diagramação das classes e interfaces com a proposta de representar os papéis do iPhone de: Reprodutor Musicial, Aparelho Telefônico e Navegador na Internet. Em seguida crie as classes e interfaces no formato de arquivos .java
+### Modelagem e Diagramação de um Componente IPhone
 
-Lançamento iPhone 2007
+Neste desafio, você sera responsável por modelar e diagramar a representação UML do componente IPhone, abrangendo suas funcionalidades como Reprodutor Musical, Aparelho Telefônico e Navegador na Internet.
 
-.Minutos relevantes do 00:15 até 00:55
+### Contexto
 
-Comportamentos esperados:
+Com base no vídeo do lançamento do IPhone de 2007 (link abaixo), você deve elaborar a diagramção das classes e interfaces utilizando uma ferramenta UML de sua preferência. Em seguida, implemente as classes e interfaces no formato de arquivos .java .
 
-.Repodutor Musicial: tocar, pausar, selecionarMusica
+[Lançamento IPhone 2007] (https://www.youtube.com/watch?v=9ou608QQRq8)
 
-.Aparelho Telefônico: ligar, atender, iniciarCorrerioVoz
+ ####   . Minutos relevantes: 00:15 até 00:55
 
-.Navegador na Internet: exibirPagina, adicionarNovaAba, atualizarPagina
+ ### Funcionalidades a Modelar
+
+ 1. **Reprodutor Musical**
+
+    . Métodos: tocar(), pausar(), selecionarMusica(String musica)
+
+2. **Aparelho Telefônico**
+
+    .Métodos: ligar(String numero), atender(), iniciarCorreioVoz()
+
+ 3. **Navegador na Internet**
+
+    .Métodos: exibirPagina(String url), adicionarNovaAba(), atualizarPagina()
+
+## **Objetivo**
+
+1. Criar um diagrama UML que represente as funcionaldades descritas acima.
+2. Implementar as classes e interfaces correspondentes em java.
+
+
+## **Diagarma UML**
+
