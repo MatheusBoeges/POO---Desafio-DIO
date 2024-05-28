@@ -1,6 +1,6 @@
 package IPhone;
 
-public class App implements ReprodutoMusical, AparelhoTelefonico{
+public class App implements ReprodutoMusical, AparelhoTelefonico, Internet {
 
 	@Override
 	public void tocarMusica() {
@@ -31,7 +31,20 @@ public class App implements ReprodutoMusical, AparelhoTelefonico{
 	public void iniciarCorreioVoz() {
 		System.out.println("Iniciando o Correio de Voz.");
 	}
-	
-	
 
+	@Override
+	public void exibirPagina(String url) {
+		System.out.println("Exibindo a página: " +  url);
+	}
+
+	@Override
+	public void adicionarNovaAba() {
+		System.out.println("Adicionando uma nova aba.");
+	}
+
+	@Override
+	public void atualizarPagina() {
+		System.out.println("Atualizando a página atual.");
+	}
+	
 }
