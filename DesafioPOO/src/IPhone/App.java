@@ -1,6 +1,6 @@
 package IPhone;
 
-public class App implements ReprodutoMusical{
+public class App implements ReprodutoMusical, AparelhoTelefonico{
 
 	@Override
 	public void tocarMusica() {
@@ -15,6 +15,21 @@ public class App implements ReprodutoMusical{
 	@Override
 	public void selecionarMusica(String musica) {
 		System.out.println("Selecionando a musica :" + " " + musica);
+	}
+
+	@Override
+	public void ligar(String numero) {
+		System.out.println("Ligando para o número : " + " " + numero);
+	}
+
+	@Override
+	public void atender() {
+		System.out.println("Atendendo a ligação: " + " " + "????");
+	}
+
+	@Override
+	public void iniciarCorreioVoz() {
+		System.out.println("Iniciando o Correio de Voz.");
 	}
 	
 	
