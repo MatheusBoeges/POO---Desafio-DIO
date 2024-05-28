@@ -16,4 +16,9 @@ public class IPhone implements ReprodutoMusical {
 			System.out.println("Pausando a música:" + " "  + "Insane");	
 		}
 
+		@Override
+		public void selecionarMusica(String musica) {
+			System.out.println("Selecionando a música: " + musica);
+		}
+
 }
