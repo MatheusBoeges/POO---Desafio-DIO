@@ -6,4 +6,6 @@ public static final String musica = "";
 	
 	public void tocarMusica();
 
+	public void pausarMusica();
+	
 }
