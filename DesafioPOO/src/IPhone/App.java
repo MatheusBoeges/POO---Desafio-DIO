@@ -14,7 +14,7 @@ public class App implements ReprodutoMusical, AparelhoTelefonico, Internet {
 
 	@Override
 	public void selecionarMusica(String musica) {
-		System.out.println("Selecionando a musica :" + " " + musica);
+		System.out.println("Selecionando a musica :" + " " + musica + "\n");
 	}
 
 	@Override
@@ -24,12 +24,12 @@ public class App implements ReprodutoMusical, AparelhoTelefonico, Internet {
 
 	@Override
 	public void atender() {
-		System.out.println("Atendendo a ligação: " + " " + "????");
+		System.out.println("Atendendo a ligação: " + " " + "Número desconhecido.");
 	}
 
 	@Override
 	public void iniciarCorreioVoz() {
-		System.out.println("Iniciando o Correio de Voz.");
+		System.out.println("Iniciando o Correio de Voz.\n");
 	}
 
 	@Override
